@@ -1,0 +1,87 @@
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+h2 {
+    color: BLACK;
+    margin: 0;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    margin-top: 20px;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    margin: 0;
+}
+
+.watchlistImg {
+    width: 180x;
+    height: 180px;
+}
+
+
+div {
+    display: flex;
+    color: black;
+    gap: 3px;
+}
+.modal-title {
+    color: black;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnDiv {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid lightgrey;
+    padding: 4px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    width: 22%;
+}
+
+.headerText{
+    color: black;
+}
+
+.movieInfoDiv {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 5px;
+}
+
+.headerColumn {
+    border-bottom: 1px solid lightgray;
+}
+
+#movieInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: whitesmoke;
+    gap: 10px;
+    color: black;
+}
+
+.col-12 {
+    display: flex;
+    align-items: center;
+/*     border-bottom: 1px solid lightgrey;
+ */    width: 100%;
+    gap: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
