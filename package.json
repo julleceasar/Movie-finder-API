@@ -1,0 +1,28 @@
+{
+  "name": "node.js-api",
+  "version": "1.0.0",
+  "description": "Rest API server built in node.js/express that is collecting data from an external open API.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.jsn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julleceasar/Node.js-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julleceasar/Node.js-API/issues"
+  },
+  "homepage": "https://github.com/julleceasar/Node.js-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nanoid": "^4.0.0",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.19"
+  }
+}
